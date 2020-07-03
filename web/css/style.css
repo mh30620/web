@@ -1,0 +1,94 @@
+body, html{
+    background: #F2F2F2;
+    width: 100%;
+    height: 100%;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar{
+    position: absolute;
+    top: 0;
+    background: #FFF059;
+    height: 280px;
+}
+
+.content{
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    top: 14%;
+    background: #FFFFFF;
+    padding-bottom: 50px;
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.img-status{
+    margin-top: 30px;
+    width: 180px;
+    height: 180px;
+}
+
+.img-sucess{
+    margin-top: 60px;
+}
+
+.container-text{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+
+.webcam{
+    position: center;
+    top: 200px ;
+    width: 65%;
+    height: 260px;
+}
+
+.container-try-again{
+    position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+.btn-auth{
+    width: 250px;
+    height: 54px;
+    background: #3483FA;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: Roboto;
+}
+
+
